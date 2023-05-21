@@ -3,7 +3,6 @@ import './app.css'
 
 export function App() {
   const [count, setCount] = useState(0)
-  const [countReset, setCountReset] = useState(0)
 
   const incrementCount = () => {
     setCount(prevCount => prevCount + 1)

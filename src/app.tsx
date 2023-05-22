@@ -5,10 +5,6 @@ export function App() {
   const [count, setCount] = useState(0)
   let isLightMode = false;
 
-  const pass = () => {
-    null
-  }
-
   const toggleMode = () => {
     if (isLightMode) {
       darkMode();

@@ -5,6 +5,10 @@ export function App() {
   const [count, setCount] = useState(0)
   let isLightMode = false;
 
+  const pass = () => {
+    null
+  }
+
   const toggleMode = () => {
     if (isLightMode) {
       darkMode();
@@ -45,7 +49,6 @@ export function App() {
       setCount(prevCount => prevCount - 1)
     }
     else {
-      console.warn("Cannot go under zero.")
     }
   }
 
